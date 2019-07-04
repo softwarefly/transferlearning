@@ -1,10 +1,12 @@
 # 迁移学习 Transfer Learning
 
-关于迁移学习的所有资料，包括：介绍、综述文章、最新文章、代表工作及其代码、常用数据集、硕博士论文、比赛等等。(可能是**目前最全**的迁移学习资料库？) *欢迎一起贡献！*
+[![MIT License](https://img.shields.io/badge/license-MIT-green.svg)](https://opensource.org/licenses/MIT)
+[![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE) [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 
-Everything about Transfer Learning (Probably the **most complete** repository?). *Your contribution is highly valued!*
 
-如果认为本仓库有用，请在你的论文和其他出版物中进行引用！ If you find this repo helpful, please cite it as follows:
+Everything about Transfer Learning (Probably the **most complete** repository?). *Your contribution is highly valued!* If you find this repo helpful, please cite it as follows:
+
+关于迁移学习的所有资料，包括：介绍、综述文章、最新文章、代表工作及其代码、常用数据集、硕博士论文、比赛等等。(可能是**目前最全**的迁移学习资料库？) *欢迎一起贡献！* 如果认为本仓库有用，请在你的论文和其他出版物中进行引用！ 
 
 ```
 @Misc{transferlearning.xyz,
@@ -13,82 +15,77 @@ title = {Everything about Transfer Learning and Domain Adapation},
 author = {Wang, Jindong and others}  
 }  
 ```
-
-_ _ _
-
-## 目录 Table of contents
-
-* [最新文章 Latest](#0latest)
-
-* [迁移学习简介 Introduction to transfer learning](#1迁移学习简介)
-
-* [研究领域与相关文章 Research articles by area](#2迁移学习研究领域与相关文章) 
-
-* [理论与综述文章 Theoretical and survey papers](#3理论与综述文章)
-
-* [相关代码 Available codes](#4代码)
-
-* [迁移学习代表性研究学者 Scholars](#5迁移学习代表性研究学者)
-
-* [相关的硕博士论文 Thesis](#6迁移学习相关的硕博士论文)
-
-* [常用公开数据集及算法结果 Datasets and benchmark](#7公开数据集及实验结果)
-
-* [比赛 Challenges and competitions](#8比赛)
-
-* [其他 Miscellaneous](#其他)
-
-* [Contributing](#contributing)
+  
+- [迁移学习 Transfer Learning](#%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0-transfer-learning)
+	- [0.Latest Publications (最新论文)](#0latest-publications-%E6%9C%80%E6%96%B0%E8%AE%BA%E6%96%87)
+	- [1.Introduction and Tutorials (简介与教程)](#1introduction-and-tutorials-%E7%AE%80%E4%BB%8B%E4%B8%8E%E6%95%99%E7%A8%8B)
+	- [2.Transfer Learning Areas and Papers (研究领域与相关论文)](#2transfer-learning-areas-and-papers-%E7%A0%94%E7%A9%B6%E9%A2%86%E5%9F%9F%E4%B8%8E%E7%9B%B8%E5%85%B3%E8%AE%BA%E6%96%87)
+	- [3.Theory and Survey (理论与综述)](#3theory-and-survey-%E7%90%86%E8%AE%BA%E4%B8%8E%E7%BB%BC%E8%BF%B0)
+	- [4.Code (代码)](#4code-%E4%BB%A3%E7%A0%81)
+	- [5.Transfer Learning Scholars (著名学者)](#5transfer-learning-scholars-%E8%91%97%E5%90%8D%E5%AD%A6%E8%80%85)
+	- [6.Transfer Learning Thesis (硕博士论文)](#6transfer-learning-thesis-%E7%A1%95%E5%8D%9A%E5%A3%AB%E8%AE%BA%E6%96%87)
+	- [7.Datasets and Benchmarks (数据集与评测结果)](#7datasets-and-benchmarks-%E6%95%B0%E6%8D%AE%E9%9B%86%E4%B8%8E%E8%AF%84%E6%B5%8B%E7%BB%93%E6%9E%9C)
+	- [8.Transfer Learning Challenges (迁移学习比赛)](#8transfer-learning-challenges-%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E6%AF%94%E8%B5%9B)
+	- [Applications (迁移学习应用)](#applications-%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E5%BA%94%E7%94%A8)
+	- [Other Resources (其他资源)](#other-resources-%E5%85%B6%E4%BB%96%E8%B5%84%E6%BA%90)
+	- [Contributing (欢迎参与贡献)](#contributing-%E6%AC%A2%E8%BF%8E%E5%8F%82%E4%B8%8E%E8%B4%A1%E7%8C%AE)
 
 > 关于机器学习和行为识别的资料，请参考：[行为识别](https://github.com/jindongwang/activityrecognition)｜[机器学习](https://github.com/jindongwang/MachineLearning)
 
 - - -
 
-## 0.Latest
+## 0.Latest Publications (最新论文)
+
+**A good website to see the latest arXiv preprints by search: [Transfer learning](http://arxitics.com/search?q=transfer%20learning&sort=updated#1904.01376/abstract), [Domain adaptation](http://arxitics.com/search?q=domain%20adaptation&sort=updated)**
+
+**一个很好的网站，可以直接看到最新的arXiv文章: [Transfer learning](http://arxitics.com/search?q=transfer%20learning&sort=updated#1904.01376/abstract), [Domain adaptation](http://arxitics.com/search?q=domain%20adaptation&sort=updated)**
 
 [迁移学习文章汇总 Awesome transfer learning papers](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
-- **Latest published (accepted) papers**
+- **Latest publications**
 
-	- 20181012 NIPS-18 [Multi-Task Learning as Multi-Objective Optimization](https://arxiv.org/abs/1810.04650)
-		- English: Solve the multi-task learning as a multi-objective optimization problem
-		- 中文：将多任务问题看成一个多目标优化问题进行求解
+	- 20190626 IJCAI-19 [Bayesian Uncertainty Matching for Unsupervised Domain Adaptation](https://arxiv.org/abs/1906.09693)
+    	- Bayesian uncertainty matching for da
+    	- 贝叶斯网络用于da
 
-	- 20181012 ICMLA-18 [Virtual Battery Parameter Identification using Transfer Learning based Stacked Autoencoder](https://arxiv.org/abs/1810.04642)
-		- English: Using transfer learning for calculating the virtual battery in a thermostatics load
-		- 中文：用迁移学习进行恒温器的电量估计
+	- 20190604 IJCAI-19 [DANE: Domain Adaptive Network Embedding](https://arxiv.org/abs/1906.00684)
+    	- Transfered network embeddings for different networks
+    	- 不同网络表达的迁移
 
-	- 20181008 PSB-19 [The Effectiveness of Multitask Learning for Phenotyping with Electronic Health Records Data](https://arxiv.org/abs/1808.03331)
-		- English: Evaluate the effectiveness of multitask learning for phenotyping
-		- 中文：评估多任务学习对于表型的作用
+	- 20190531 IJCAI-19 [Adversarial Imitation Learning from Incomplete Demonstrations](https://arxiv.org/abs/1905.12310)
+    	- Adversarial imitation learning from imcomplete demonstrations
+    	- 基于不完整实例的对抗模仿学习
 
-- **arXiv** (Not peer-reviewed, please be cautious)
+	- 20190525 PAMI-19 [Learning More Universal Representations for Transfer-Learning](https://ieeexplore.ieee.org/abstract/document/8703078)
+    	- Learning more universal representations for transfer learning
+    	- 对迁移学习设计2种方式学到更通用的表达
 
-	- 20181012 arXiv [Transfer Metric Learning: Algorithms, Applications and Outlooks](https://arxiv.org/abs/1810.03944)
-		- English: A survey on transfer metric learning
-		- 中文：一篇迁移度量学习的综述
-		
-	- 20181012 arXiv [Bird Species Classification using Transfer Learning with Multistage Training](https://arxiv.org/abs/1810.04250)
-		- English: Using transfer learning for bird species classification
-		- 中文：用迁移学习进行鸟类分类
-		
-	- 20181012 arXiv [Survival prediction using ensemble tumor segmentation and transfer learning](https://arxiv.org/abs/1810.04274)
-		- English: Predicting the survival of the tumor patient using transfer learning
-		- 中文：用迁移学习估计肿瘤病人存活时间
+- **Preprints on arXiv** (Not peer-reviewed)
 
-	- 20181012 arXiv [Domain Confusion with Self Ensembling for Unsupervised Adaptation](https://arxiv.org/abs/1810.04472)
-		- English: Domain confusion and self-ensembling for DA
-		- 中文：用于Domain adaptation的confusion和self-ensembling方法
+	- 20190703 arXiv [Disentangled Makeup Transfer with Generative Adversarial Network](https://arxiv.org/abs/1907.01144)
+    	- Makeup transfer with GAN
+    	- 用GAN进行化妆的迁移
 
-	- 20181008 arXiv [Unsupervised Learning via Meta-Learning](https://arxiv.org/abs/1810.02334)
-		- English: Meta-learning for unsupervised learning
-		- 中文：用于无监督学习的元学习
+	- 20190703 arXiv [Applying Transfer Learning To Deep Learned Models For EEG Analysis](https://arxiv.org/abs/1907.01332)
+    	- Apply transfer learning to EEG
+    	- 用深度迁移学习进行EEG分析
+
+	- 20190703 arXiv [Domain Adaptation via Low-Rank Basis Approximation](https://arxiv.org/abs/1907.01343)
+    	- Domain adaptation with low-rank basis approximation
+    	- 低秩分解进行domain adaptation
+
+	- 20190703 arXiv [Inferred successor maps for better transfer learning](https://arxiv.org/abs/1906.07663)
+    	- Inferred successor maps for better transfer learning
+
+	- 20190626 arXiv [A Novel Deep Transfer Learning Method for Detection of Myocardial Infarction](https://arxiv.org/abs/1906.09358)
+    	- A deep transfer learning method for detecting myocardial infarction
+    	- 一种用于监测心肌梗塞的深度迁移方法
 
 [**更多 More...**](https://github.com/jindongwang/transferlearning/tree/master/doc/awesome_paper.md)
 
 - - -
 
-## 1.迁移学习简介
+## 1.Introduction and Tutorials (简介与教程)
 
 - 简介文字资料
 	- [简单的中文简介 Chinese introduction](https://github.com/jindongwang/transferlearning/blob/master/doc/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%AE%80%E4%BB%8B.md)
@@ -113,39 +110,41 @@ _ _ _
 	- [基于Pytorch的图像分类 Using Transfer Learning for Image Classification](https://github.com/miguelgfierro/sciblog_support/blob/master/A_Gentle_Introduction_to_Transfer_Learning/Intro_Transfer_Learning.ipynb)
 	- [使用Pytorch进行finetune Using Pytorch for Fine-tune](https://github.com/Spandan-Madan/Pytorch_fine_tuning_Tutorial)
 	- [基于AlexNet和ResNet的finetune Fine-tune based on Alexnet and Resnet](https://github.com/jindongwang/transferlearning/tree/master/code/AlexNet_ResNet)
+	- [更多 More...](https://github.com/jindongwang/transferlearning/tree/master/code)
 
 - - -
 
-## 2.迁移学习研究领域与相关文章
+## 2.Transfer Learning Areas and Papers (研究领域与相关论文)
 
 Related articles by research areas:
 
-- [领域自适应(非深度) Domain Adaptation (Shallow)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#领域自适应)
-	- Domain adaptation介绍：[Domain adaptation](https://github.com/jindongwang/transferlearning/blob/master/doc/domain_adaptation.md)
-	- 这个目录主要是非深度方法，深度方法在下面。
+- [General Transfer Learning (普通迁移学习)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#general-transfer-learning-%E6%99%AE%E9%80%9A%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+  - [Theory (理论)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#theory-%E7%90%86%E8%AE%BA)
+  - [Others (其他)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#others-%E5%85%B6%E4%BB%96)
+- [Domain Adaptation (领域自适应)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#domain-adaptation-%E9%A2%86%E5%9F%9F%E8%87%AA%E9%80%82%E5%BA%94)
+  - [Traditional Methods (传统迁移方法)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#traditional-methods-%E4%BC%A0%E7%BB%9F%E8%BF%81%E7%A7%BB%E6%96%B9%E6%B3%95)
+  - [Deep / Adversarial Methods (深度/对抗迁移方法)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#deep--adversarial-methods-%E6%B7%B1%E5%BA%A6%E5%AF%B9%E6%8A%97%E8%BF%81%E7%A7%BB%E6%96%B9%E6%B3%95)
+- [Domain Generalization](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#domain-generalization)
+- [Multi-source Transfer Learning (多源迁移学习)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#multi-source-transfer-learning-%E5%A4%9A%E6%BA%90%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+- [Heterogeneous Transfer Learning (异构迁移学习)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#heterogeneous-transfer-learning-%E5%BC%82%E6%9E%84%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+- [Online Transfer Learning (在线迁移学习)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#online-transfer-learning-%E5%9C%A8%E7%BA%BF%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+- [Zero-shot / Few-shot Learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#zero-shot--few-shot-learning)
+- [Deep Transfer Learning (深度迁移学习)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#deep-transfer-learning-%E6%B7%B1%E5%BA%A6%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+  - [Non-Adversarial Transfer Learning (非对抗深度迁移)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#non-adversarial-transfer-learning-%E9%9D%9E%E5%AF%B9%E6%8A%97%E6%B7%B1%E5%BA%A6%E8%BF%81%E7%A7%BB)
+  - [Deep Adversarial Transfer Learning (对抗迁移学习)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#deep-adversarial-transfer-learning-%E5%AF%B9%E6%8A%97%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+- [Multi-task Learning (多任务学习)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#multi-task-learning-%E5%A4%9A%E4%BB%BB%E5%8A%A1%E5%AD%A6%E4%B9%A0)
+- [Transfer Reinforcement Learning (强化迁移学习)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#transfer-reinforcement-learning-%E5%BC%BA%E5%8C%96%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+- [Transfer Metric Learning (迁移度量学习)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#transfer-metric-learning-%E8%BF%81%E7%A7%BB%E5%BA%A6%E9%87%8F%E5%AD%A6%E4%B9%A0)
+- [Transitive Transfer Learning (传递迁移学习)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#transitive-transfer-learning-%E4%BC%A0%E9%80%92%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+- [Lifelong Learning (终身迁移学习)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#lifelong-learning-%E7%BB%88%E8%BA%AB%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0)
+- [Negative Transfer (负迁移)](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#negative-transfer-%E8%B4%9F%E8%BF%81%E7%A7%BB)
+- [Transfer Learning Applications (应用)](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md)
 
-- [在线迁移学习 Online transfer learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#在线迁移学习)
-
-- [终身迁移学习 Lifelong transfer learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#终身迁移学习)
-
-- [异构迁移学习 Heterogeneous Transfer Learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#异构迁移学习)
-
-- [深度迁移学习 Deep Transfer Learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#深度迁移学习)
-  
-    - [深度对抗迁移迁移学习 Deep Adversarial transfer learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#对抗迁移学习)
-
-- [传递迁移学习 Transitive Transfer Learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#传递迁移学习)
-
-- [强化迁移学习 Transfer Learning with Reinforcement Learning](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#强化迁移学习)
-
-- [应用 Applications](https://github.com/jindongwang/transferlearning/blob/master/doc/awesome_paper.md#应用)
-	- [迁移学习用于行为识别 Transfer learning for activity recognition](https://github.com/jindongwang/activityrecognition/blob/master/notes/%E8%BF%81%E7%A7%BB%E5%AD%A6%E4%B9%A0%E7%94%A8%E4%BA%8E%E8%A1%8C%E4%B8%BA%E8%AF%86%E5%88%AB.md)
-
-一个推荐、分享论文的网站比较好，我在上面会持续整理相关的文章并分享阅读笔记。详情请见[paperweekly](http://www.paperweekly.site/collections/231/papers)。
+[Paperweekly](http://www.paperweekly.site/collections/231/papers): 一个推荐、分享论文的网站比较好，上面会持续整理相关的文章并分享阅读笔记。
 
 - - -
 
-## 3.理论与综述文章
+## 3.Theory and Survey (理论与综述)
 
 Here are some articles on transfer learning theory and survey.
 
@@ -166,6 +165,7 @@ Here are some articles on transfer learning theory and survey.
 
 - 较新的综述 Latest survey：
 
+	- 2019 一篇新survey：[Transfer Adaptation Learning: A Decade Survey](https://arxiv.org/abs/1903.04687)
 	- 2018 一篇迁移度量学习的综述: [Transfer Metric Learning: Algorithms, Applications and Outlooks](https://arxiv.org/abs/1810.03944)
 	- 2018 一篇最近的非对称情况下的异构迁移学习综述：[Asymmetric Heterogeneous Transfer Learning: A Survey](https://arxiv.org/abs/1804.10834)
 	- 2018 Neural style transfer的一个survey：[Neural Style Transfer: A Review](https://arxiv.org/abs/1705.04058)
@@ -184,13 +184,13 @@ Here are some articles on transfer learning theory and survey.
 
 _ _ _
 
-## 4.代码
+## 4.Code (代码)
 
 请见[这里](https://github.com/jindongwang/transferlearning/tree/master/code) | Please see [HERE](https://github.com/jindongwang/transferlearning/tree/master/code) for some popular transfer learning codes.
 
 _ _ _
 
-## 5.迁移学习代表性研究学者
+## 5.Transfer Learning Scholars (著名学者)
 
 Here are some transfer learning scholars and labs.
 
@@ -206,6 +206,8 @@ Please refer to [here](https://github.com/jindongwang/transferlearning/blob/mast
 
 - [Lixin Duan](http://www.lxduan.info/)：中文名段立新，新加坡南洋理工大学博士，现就职于电子科技大学，教授。[[Google scholar](https://scholar.google.com.hk/citations?user=inRIcS0AAAAJ&hl=zh-CN&oi=ao)]
 
+- [Boqing Gong](http://boqinggong.info/index.html)：南加州大学博士，现就职于腾讯AI Lab(西雅图)。曾任中佛罗里达大学助理教授。[[Google scholar](https://scholar.google.com/citations?user=lv9ZeVUAAAAJ&hl=en)]
+
 - [Fuzhen Zhuang](http://www.intsci.ac.cn/users/zhuangfuzhen/)：中文名庄福振，中科院计算所博士，现任中科院计算所副研究员。[[Google scholar](https://scholar.google.com/citations?user=klJBYrAAAAAJ&hl=zh-CN&oi=ao)]
 
 - [Mingsheng Long](http://ise.thss.tsinghua.edu.cn/~mlong/)：中文名龙明盛，清华大学博士，现任清华大学助理教授、博士生导师。[[Google scholar](https://scholar.google.com/citations?view_op=search_authors&mauthors=mingsheng+long&hl=zh-CN&oi=ao)]
@@ -217,9 +219,11 @@ Please refer to [here](https://github.com/jindongwang/transferlearning/blob/mast
 - [Tongliang Liu](http://ieeexplore.ieee.org/abstract/document/8259375/)：中文名刘同亮，现任悉尼大学助理教授。主要做迁移学习的一些理论方面的工作。[[Google scholar](https://scholar.google.com.hk/citations?hl=zh-CN&user=EiLdZ_YAAAAJ)]
 
 - [Tatiana Tommasi](http://tatianatommasi.wixsite.com/tatianatommasi/3)：Researcher at the Italian Institute of Technology.
+
+- [Vinod K Kurmi](https://github.com/vinodkkurmi)[[home page](https://github.com/vinodkkurmi)]: Researcher at the Indian Institute of Technology Kanpur(India)
 _ _ _
 
-## 6.迁移学习相关的硕博士论文
+## 6.Transfer Learning Thesis (硕博士论文)
 
 Here are some popular thesis on transfer learning.
 
@@ -227,7 +231,7 @@ Here are some popular thesis on transfer learning.
 
 - 2016 Baochen Sun的[Correlation Alignment for Domain Adaptation](http://www.cs.uml.edu/~bsun/papers/baochen_phd_thesis.pdf)
 
-- 2014 南加州大学的Boqing Gong的[Kernel Methods for Unsupervised Domain Adaptation](https://pan.baidu.com/s/1bpbawv9)
+- 2015 南加州大学的Boqing Gong的[Kernel Methods for Unsupervised Domain Adaptation](https://pan.baidu.com/s/1bpbawv9)
 
 - 2014 清华大学龙明盛的[迁移学习问题与方法研究](http://ise.thss.tsinghua.edu.cn/~mlong/doc/phd-thesis-mingsheng-long.pdf)
 
@@ -245,9 +249,7 @@ Here are some popular thesis on transfer learning.
 
 - - -
 
-## 7.公开数据集及实验结果
-
-迁移学习领域有一些公开的数据集，用来对比算法的表现。
+## 7.Datasets and Benchmarks (数据集与评测结果)
 
 Please see [HERE](https://github.com/jindongwang/transferlearning/blob/master/data) for the popular transfer learning **datasets and certain benchmark** results.
 
@@ -255,32 +257,37 @@ Please see [HERE](https://github.com/jindongwang/transferlearning/blob/master/da
 
 - - -
 
-## 8.比赛
+## 8.Transfer Learning Challenges (迁移学习比赛)
 
-Here are some popular challenges on transfer learning. 一些关于迁移学习的国际比赛。
+一些关于迁移学习的国际比赛。
 
 - [Visual Domain Adaptation Challenge (VisDA)](http://ai.bu.edu/visda-2018/)
 
 - - -
+
+## Applications (迁移学习应用)
+
+See [HERE](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md) for transfer learning applications.
+
+迁移学习应用请见[这里](https://github.com/jindongwang/transferlearning/blob/master/doc/transfer_learning_application.md)。
+
+- - -
   
-## 其他
+## Other Resources (其他资源)
+
+Call for papers about transfer learning:
+
+- [Transfer Learning for Multimedia Applications(A Special Issue on Multimedia Tools and Applications (MTAP))](https://lijin118.github.io/mtap/)
 
 Related projects:
 
-- A semi-supervised domain adaptation library: https://domainadaptation.org
+- Salad: [A semi-supervised domain adaptation library](https://domainadaptation.org)
 
 
 - - -
 
-## Contributing
+## Contributing (欢迎参与贡献)
 
-如果你对本项目感兴趣，非常欢迎你加入！
-
-- 正常参与：请直接fork、pull request，或者与我联系我把你加入合作者中
-- 如果要上传文件：请**不要**直接上传到项目中，否则会造成git版本库过大。正确的方法是上传它的**超链接**。请按照如下方式上传：
-	- (墙内)目前没有找到比较好的方式，只能通过链接，或者自己网盘的链接来做。
-	- (墙外)首先在[UPLOAD](https://my.pcloud.com/#page=puplink&code=4e9Z0Vwpmfzvx0y2OqTTTMzkrRUz8q9V)直接上传（**不**需要注册账号）；上传成功后，在[DOWNLOAD](https://my.pcloud.com/publink/show?code=kZWtboZbDDVguCHGV49QkmlLliNPJRMHrFX)里找到你刚上传的文件，共享链接即可。
-
-Welcome!
+If you are interested in contributing, please refer to [HERE](https://github.com/jindongwang/transferlearning/blob/master/CONTRIBUTING.md) for instructions in contribution.
 
 > ***[文章版权声明]这个仓库是我开源到Github上的，可以遵守相关的开源协议进行使用。这个仓库中包含有很多研究者的论文、硕博士论文等，都来源于在网上的下载，仅作为学术研究使用。我对其中一些文章都写了自己的浅见，希望能很好地帮助理解。这些文章的版权属于相应的出版社。如果作者或出版社有异议，请联系我进行删除。一切都是为了更好地学术！***
